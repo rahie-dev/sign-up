@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+body {
+    background-image: url("/login/imgs/WhatsApp\ Image\ 2025-11-26\ at\ 11.03.23_3208ad86.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.glass-box {
+    width: 350px;
+    padding: 5%;
+    border-radius: 15px;
+    backdrop-filter: blur(12px);
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    text-align: center;
+}
+
+.glass-box label{
+    padding: 10px;
+    margin: 10px;
+    color:#eee;
+
+}
+/* .glass-box input{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+
+} */
+.signup-btn{
+      margin: 10px;
+    border-radius: 10px;
+     width: 50%;
+    padding: 10px;
+    background: #528fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+      
+}
+
+  
+
+.glass-box p {
+    color: #eee;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.glass-box input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+} 
+.icons img {
+    width: 30px;
+    margin: 0 10px;
+    cursor: pointer;
+}

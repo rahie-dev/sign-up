@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-image: url("/login/imgs/WhatsApp\ Image\ 2025-11-26\ at\ 11.03.23_3208ad86.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+     
+}
+
+.container {
+    
+  
+      width: 350px;
+    padding: 30px;
+    border-radius: 15px;
+    backdrop-filter: blur(12px);
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    text-align: center;
+}
+
+.h1{
+    font-size: 28px;
+    margin-bottom: 25px;
+    color: #3a3a3a;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: black;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #888;
+    border-radius: 5px;
+}
+
+.forgot {
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #7a3ba8;
+    text-decoration: none;
+    transition: color 0.3s ease; 
+}
+
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    background: #528fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: whitesmoke;
+    transition: color 0.3s ease;
+}
+
+
+
+.signup-text {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #7a3ba8;
+    transition: color 0.3s ease;
+    
+}
+
+.signup {
+    margin: 10px;
+    border-radius: 10px;
+     width: 20%;
+    padding: 10px;
+    background: #528fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 12px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
